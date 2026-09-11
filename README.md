@@ -63,8 +63,7 @@ Once the correct CAPTCHA is entered, a cheerful green message appears saying “
 *At the top, the CAPTCHA code is displayed in a light orange box, followed by the input field and Submit button. The status area now shows a red error message on a black background, saying the answer is wrong but encouraging the user to keep trying — “Don’t give up — try again, maybe next time you’ll succeed!”*
 
 # Diagrams
-![work flow](<img width="1024" height="1536" alt="Copilot_20260912_043413" src="https://github.com/user-attachments/assets/ae7a5853-e75c-4749-b1e8-f2ac169e54e2" />
-)
+![work flow](<img width="1024" height="1536" alt="Copilot_20260912_043413" src="https://github.com/user-attachments/assets/ae7a5853-e75c-4749-b1e8-f2ac169e54e2" />)
 *This flowchart visually explains how your “ARE YOU SURE? CAPTCHA” app works. It starts with generating and displaying a random CAPTCHA, then checks if the user’s input is correct.
 
 If correct, the app simulates a fake “processing” sequence and creates a new CAPTCHA — giving a sense of progress. If wrong, it increases the chaos level, darkens the background, speeds up animations, and shows fake system messages. After ten failed attempts, the user gets locked out*
